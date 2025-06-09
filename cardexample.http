@@ -1,0 +1,38 @@
+GET http://localhost:3000/cards/636183b6cb0710446e7a7326
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NGFkMTg2OWQxYzQzYTMwMjM5OTIiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDU2NTAwfQ.ZJEc2OisCqaxe1GsCtrm9nMPOTczRYqSzGEv9Z6jZYU
+
+###
+PUT http://localhost:3000/cards/68376323f4deb117451e45f7
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NGFkMTg2OWQxYzQzYTMwMjM5OTIiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDU2NTAwfQ.ZJEc2OisCqaxe1GsCtrm9nMPOTczRYqSzGEv9Z6jZYU
+Content-Type: application/json
+
+{
+    "title": "mini",
+  "subTitle": "bJ",
+ "description":"jjjjjjdskks",
+  "phone": "0501234567",
+  "email": "exagffle@email.com",
+  "web": "https://example.com",
+  "image": {
+    "url":"",
+    "alt": "picture"
+  },
+  "adress": {
+    "state": "Center",
+    "country": "Israel",
+    "city": "vddd",
+    "street": "Herzl",
+    "houseNumber": "5",
+    "zip":5
+}
+}
+
+###
+PATCH http://localhost:3000/cards/68375315523ed228e8411fbc
+x-auth-token:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NGFkMTg2OWQxYzQzYTMwMjM5OTIiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDU2NTAwfQ.ZJEc2OisCqaxe1GsCtrm9nMPOTczRYqSzGEv9Z6jZYU
+Content-Type: application/json
+
+
+###
+DELETE http://localhost:3000/cards/68375315523ed228e8411fbc
+x-auth-token:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NGFkMTg2OWQxYzQzYTMwMjM5OTIiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDU2NTAwfQ.ZJEc2OisCqaxe1GsCtrm9nMPOTczRYqSzGEv9Z6jZYU

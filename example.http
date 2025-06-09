@@ -1,0 +1,78 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+
+ {
+  "name": {
+    "first": "fjjj",
+    "middle":"jskkr",
+    "last": "jjjjj"
+  },
+  "email": "min@gmail.com",
+  "phone": "0555646103",
+  "password": "Nama@@8466",
+  "adress": {
+    "state": "Center",
+    "country": "hs" ,
+    "city": "vddd",
+    "street": "ffff",
+    "houseNumber": 5,
+    "zip": 5
+  },
+  "isBusiness": true,
+  "isAdmin": false
+
+}
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+
+{
+  
+  "email": "min@gmail.com",
+  "password": "Nama@@8466"
+}
+
+###
+GET http://localhost:3000/users/683746bfee7b9c031e732cb1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NDZiZmVlN2I5YzAzMWU3MzJjYjEiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDUzMTQ1fQ.3bEAbjuLf8QXHx-hfe69eVp7mrnOE6U2rOWIF8t7zeE
+
+###
+DELETE  http://localhost:3000/users/683746bfee7b9c031e732cb1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NDZiZmVlN2I5YzAzMWU3MzJjYjEiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDUzMTQ1fQ.3bEAbjuLf8QXHx-hfe69eVp7mrnOE6U2rOWIF8t7zeE
+
+###
+PATCH  http://localhost:3000/users/683746bfee7b9c031e732cb1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NDZiZmVlN2I5YzAzMWU3MzJjYjEiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDUzMTQ1fQ.3bEAbjuLf8QXHx-hfe69eVp7mrnOE6U2rOWIF8t7zeE
+
+###
+PUT  http://localhost:3000/users/683746bfee7b9c031e732cb1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM3NDZiZmVlN2I5YzAzMWU3MzJjYjEiLCJpc0J1c2luZXNzIjp0cnVlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQ4NDUzMTQ1fQ.3bEAbjuLf8QXHx-hfe69eVp7mrnOE6U2rOWIF8t7zeE
+Content-Type: application/json
+
+{
+  "name": {
+    "first": "tamar",
+    "middle":"jskkr",
+    "last": "zara"
+  },
+  "email": "min@gmail.com",
+  "phone": "0555646103",
+  "password": "Nama@@8466",
+  "adress": {
+    "state": "Center",
+    "country": "hs" ,
+    "city": "vddd",
+    "street": "ffff",
+    "houseNumber": 5,
+    "zip": 5
+  },
+  "isBusiness": true,
+  "isAdmin": false
+}
+
+
+
+

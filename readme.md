@@ -13,8 +13,8 @@ This is the backend server for a Business Cards application, built with Node.js,
 
 ## 📚 Documentation
 
-- [👤 Users API Documentation](../users_api.md)
-- [📇 Cards API Documentation](../cards_api.md)
+- [👤 Users API Documentation](./documentation/users_api.md)
+- [📇 Cards API Documentation](./documentation/cards_api.md)
 
 ---
 
